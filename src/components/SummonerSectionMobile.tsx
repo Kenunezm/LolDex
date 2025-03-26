@@ -1,5 +1,4 @@
 import { useSummoner } from "@/contexts/SummonerContext";
-import "@fontsource/bebas-neue/400.css";
 
 import {
   getMatchesDetails,
