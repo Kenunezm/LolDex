@@ -48,3 +48,6 @@ npm run dev
 ```sh
 http://localhost:5173
 ```
+
+# 🎮 **Demo**
+[LoL Dex Demo](https://loldex.vercel.app/)
