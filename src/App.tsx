@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from "./components/Header";
 import SummonerSection from "./components/SummonerSection";
 import SummonerSectionMobile from "./components/SummonerSectionMobile";
