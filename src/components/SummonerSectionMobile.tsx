@@ -1,4 +1,5 @@
 import { useSummoner } from "@/contexts/SummonerContext";
+import "@fontsource/bebas-neue/400.css";
 
 import {
   getMatchesDetails,
@@ -422,8 +423,9 @@ function SummonerSectionMobile() {
                             <HStack>
                               {match.items
                                 .filter((itemId) => itemId !== 0)
-                                .map((itemId) => (
+                                .map((itemId, i) => (
                                   <Image
+                                    key={i}
                                     height="50%"
                                     src={`https://ddragon.leagueoflegends.com/cdn/15.6.1/img/item/${itemId}.png`}
                                   ></Image>
